@@ -1,0 +1,172 @@
+{
+  "n_questions": 10,
+  "mode": "extractive",
+  "top1_hit_rate": 1.0,
+  "top3_hit_rate": 1.0,
+  "fact_hit_rate": 1.0,
+  "latency_mean_ms": 0.2,
+  "latency_p50_ms": 0.2,
+  "latency_p95_ms": 0.2,
+  "rows": [
+    {
+      "question": "Berapa lama pengiriman ke Jakarta?",
+      "expected_doc": "pengiriman",
+      "top1": "pengiriman",
+      "top3": [
+        "pengiriman",
+        "penukaran",
+        "retur"
+      ],
+      "top1_hit": true,
+      "top3_hit": true,
+      "fact_hit": true,
+      "found": true,
+      "mode": "extractive",
+      "latency_ms": 0.2
+    },
+    {
+      "question": "Apakah bisa retur barang?",
+      "expected_doc": "retur",
+      "top1": "retur",
+      "top3": [
+        "retur",
+        "penukaran",
+        "garansi"
+      ],
+      "top1_hit": true,
+      "top3_hit": true,
+      "fact_hit": true,
+      "found": true,
+      "mode": "extractive",
+      "latency_ms": 0.2
+    },
+    {
+      "question": "Garansi produk elektronik berapa lama?",
+      "expected_doc": "garansi",
+      "top1": "garansi",
+      "top3": [
+        "garansi",
+        "penukaran",
+        "retur"
+      ],
+      "top1_hit": true,
+      "top3_hit": true,
+      "fact_hit": true,
+      "found": true,
+      "mode": "extractive",
+      "latency_ms": 0.2
+    },
+    {
+      "question": "Metode pembayaran apa saja yang diterima?",
+      "expected_doc": "pembayaran",
+      "top1": "pembayaran",
+      "top3": [
+        "pembayaran",
+        "retur",
+        "penukaran"
+      ],
+      "top1_hit": true,
+      "top3_hit": true,
+      "fact_hit": true,
+      "found": true,
+      "mode": "extractive",
+      "latency_ms": 0.2
+    },
+    {
+      "question": "Jam berapa customer service buka?",
+      "expected_doc": "operasional",
+      "top1": "operasional",
+      "top3": [
+        "operasional",
+        "garansi",
+        "pelacakan"
+      ],
+      "top1_hit": true,
+      "top3_hit": true,
+      "fact_hit": true,
+      "found": true,
+      "mode": "extractive",
+      "latency_ms": 0.2
+    },
+    {
+      "question": "Kapan ongkir gratis berlaku?",
+      "expected_doc": "pengiriman",
+      "top1": "pengiriman",
+      "top3": [
+        "pengiriman",
+        "penukaran",
+        "garansi"
+      ],
+      "top1_hit": true,
+      "top3_hit": true,
+      "fact_hit": true,
+      "found": true,
+      "mode": "extractive",
+      "latency_ms": 0.2
+    },
+    {
+      "question": "Bagaimana cara melacak pesanan saya?",
+      "expected_doc": "pelacakan",
+      "top1": "pelacakan",
+      "top3": [
+        "pelacakan",
+        "pembayaran",
+        "operasional"
+      ],
+      "top1_hit": true,
+      "top3_hit": true,
+      "fact_hit": true,
+      "found": true,
+      "mode": "extractive",
+      "latency_ms": 0.2
+    },
+    {
+      "question": "Apakah bisa bayar di tempat (COD)?",
+      "expected_doc": "pembayaran",
+      "top1": "pembayaran",
+      "top3": [
+        "pembayaran",
+        "operasional",
+        "garansi"
+      ],
+      "top1_hit": true,
+      "top3_hit": true,
+      "fact_hit": true,
+      "found": true,
+      "mode": "extractive",
+      "latency_ms": 0.2
+    },
+    {
+      "question": "Barang sampai dalam keadaan rusak, apa yang harus saya lakukan?",
+      "expected_doc": "retur",
+      "top1": "retur",
+      "top3": [
+        "retur",
+        "penukaran",
+        "operasional"
+      ],
+      "top1_hit": true,
+      "top3_hit": true,
+      "fact_hit": true,
+      "found": true,
+      "mode": "extractive",
+      "latency_ms": 0.2
+    },
+    {
+      "question": "Apakah Toko Maju mengirim ke luar pulau?",
+      "expected_doc": "pengiriman",
+      "top1": "pengiriman",
+      "top3": [
+        "pengiriman",
+        "operasional",
+        "pembayaran"
+      ],
+      "top1_hit": true,
+      "top3_hit": true,
+      "fact_hit": true,
+      "found": true,
+      "mode": "extractive",
+      "latency_ms": 0.2
+    }
+  ]
+}

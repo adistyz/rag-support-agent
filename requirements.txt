@@ -1,0 +1,2 @@
+# Tanpa dependensi eksternal — Python 3.10+ stdlib saja.
+# Mode LLM opsional memakai env OPENAI_API_KEY (panggilan HTTP stdlib, tanpa SDK).
